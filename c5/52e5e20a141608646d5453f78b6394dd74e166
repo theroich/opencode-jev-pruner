@@ -1,0 +1,62 @@
+.env.example
+  h_34a594f8693459 1-13
+.gitignore
+  h_34a594f8693459 1-8
+.tool-versions
+  h_34a594f8693459 1
+LICENSE
+  h_34a594f8693459 1-21
+README.md
+  h_34a594f8693459 1-335
+opencode.example.jsonc
+  h_34a594f8693459 1-22
+package-lock.json
+  h_34a594f8693459 1-3844
+package.json
+  h_34a594f8693459 1-39
+scripts/fake-jev.mjs
+  h_34a594f8693459 1-88
+src/catalog.ts
+  h_34a594f8693459 1-319
+src/config.ts
+  h_34a594f8693459 1-279
+src/index.ts
+  h_34a594f8693459 1-210
+src/jev.ts
+  h_34a594f8693459 1-120
+src/match.ts
+  h_34a594f8693459 1-11
+src/mcp-instructions.ts
+  h_34a594f8693459 1-40
+src/prompt.ts
+  h_34a594f8693459 1-32
+src/pruner.ts
+  h_34a594f8693459 1-665
+src/skills.ts
+  h_34a594f8693459 1-90
+test/catalog.test.ts
+  h_34a594f8693459 1-86
+test/config.test.ts
+  h_34a594f8693459 1-88
+test/fixtures.ts
+  h_34a594f8693459 1-49
+test/jev.test.ts
+  h_34a594f8693459 1-91
+test/pruner.test.ts
+  h_34a594f8693459 1-259
+test/skills.test.ts
+  h_34a594f8693459 1-46
+tsconfig.json
+  h_34a594f8693459 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c552e5e20a141608646d5453f78b6394dd74e166",
+  "prompts": {},
+  "humans": {
+    "h_34a594f8693459": {
+      "author": "theroich <9357441+theroich@users.noreply.github.com>"
+    }
+  }
+}
