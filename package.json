@@ -1,0 +1,39 @@
+{
+  "name": "opencode-jev-pruner",
+  "version": "0.1.0",
+  "description": "Context pruning for OpenCode: uses Jev (TypeSafe System One) to keep only the MCP tools and skills relevant to the current request.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "jev",
+    "typesafe",
+    "context-pruning",
+    "mcp"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "README.md",
+    "LICENSE",
+    ".env.example",
+    "opencode.example.jsonc"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "fake-jev": "node scripts/fake-jev.mjs"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

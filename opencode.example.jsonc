@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      // Use "./path/to/opencode-jev-pruner" for a local checkout.
+      "package": "opencode-jev-pruner",
+      "options": {
+        "jev_confidence_threshold": 0.55,
+        "jev_phase1_threshold": 0.35,
+        "jev_timeout_ms": 900,
+        "enable_two_phase_gating": true,
+        "warmup_on_load": true,
+        "failure_cooldown_ms": 30000,
+        "always_include_skills": ["core_system_skill", "error_recovery", "opencode"],
+        "always_include_tools": ["opencode_*"],
+        "prune_mcp_tools": true,
+        "prune_skills": true,
+        "debug_mode": false
+      }
+    }
+  ]
+}
